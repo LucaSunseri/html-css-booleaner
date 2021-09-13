@@ -38,6 +38,11 @@ body{
 }
 
 /* Inizio Tabella */
+table{
+  border-collapse: collapse;
+  text-align: left;
+}
+
 .header-tabella{
   background-color: #20a9e5;
 }
@@ -55,6 +60,8 @@ body{
 }
 /* Fine Tabella */
 
+
+/*footer della pagina*/
 .img-finali-1, .img-finali-2{
   width: 300px;
   height: 200px;
@@ -64,7 +71,6 @@ body{
   background-image: url(../img/monitor.jpg);
 }
 
-/*footer della pagina*/
 .img-finali-2{
   background-image: url(../img/graph.jpg);
 }
@@ -73,4 +79,8 @@ body{
   font-size: 20px;
   font-weight: 900;
   color: white;
+}
+
+table{
+  border-collapse: collapse;
 }
