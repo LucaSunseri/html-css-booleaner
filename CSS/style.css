@@ -12,7 +12,7 @@ body{
 #logo{
   width: 20%;
   position: relative;
-  left: 10%%;
+  left: 10%;
   top: 25%;
 }
 
@@ -29,6 +29,26 @@ body{
   color: #39b2e8;
 }
 
-.date{
+.piccola{
   font-size: 14px;
+}
+
+.evidenziato{
+  background-color: #ffff00;
+}
+
+.header-tabella{
+  background-color: #20a9e5;
+}
+
+.colonna-uno, .colonna-due, .colonna-tre{
+  color: white;
+}
+
+.colonna-uno, .colonna-due{
+  width: 15%;
+}
+
+.prima-riga, .terza-riga{
+  background-color: #b1e5f2;
 }
